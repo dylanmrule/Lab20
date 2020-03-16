@@ -1,0 +1,106 @@
+li {
+    list-style-type: none;
+    margin: 0;
+    font-size: 3vh;
+    text-align: center;
+    display: inline;
+}
+
+.aNav {
+    text-decoration: none;
+    color: white;
+    padding: 2vw;
+    display: inline-block;
+}
+
+a:hover {
+    background-color: gray;
+    cursor: pointer;
+    ;
+}
+
+nav {
+    width: 100vw;
+    background-color: rgb(72, 78, 99);
+}
+
+#navDylan {
+    font-size: 4vh;
+    margin-left: 0%;
+    background-color: rgb(72, 78, 99);
+    color: white;
+}
+
+ul {
+    display: block;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    margin-left: 28%;
+}
+
+body {
+    margin: 0;
+    background: url("Mountain.jpg");
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p {
+    color: white;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+#portfolio {
+    background-color: rgb(255, 255, 255, 0.5);
+    align-self: flex-start;
+}
+
+#portfolio:hover {
+    color: blue;
+}
+
+#portfolioUL {
+    margin-left: 0%;
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+}
+
+.aGitHub {
+    text-decoration: none;
+    color: white;
+    padding: 2vw;
+    display: inline-block;
+}
+
+#link {
+    text-decoration: none;
+    color: black;
+    background-color: rgb(255, 255, 255, 0.5);
+}
+
+.footer {
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(72, 78, 99);
+    color: white;
+}
+
+#blogLink {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    margin-left: 46%;
+}
